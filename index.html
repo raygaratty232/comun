@@ -14,24 +14,20 @@
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Выбрать тариф</button>
   </div>
   <div class="div-container">
-    <input type="text" name="water" id="a">
-    <input type="text" name="water" id="b">
+    <input type="number" name="water" id="a">
+    <input type="number" name="water" id="b">
     <p id="waterp" class="all-p">Вода</p>
     <button id="goWater" class="all-btn">Посчитать</button>
   </div>
-  <br>
-  <br>
   <div class="div-container">
-    <input type="text" name="light" id="c">
-    <input type="text" name="light" id="d">
+    <input type="number" name="light" id="c">
+    <input type="number" name="light" id="d">
     <p id="lightp" class="all-p">Электроэнергия</p>
     <button id="golight" class="all-btn">Посчитать</button>
   </div>
-  <br>
-  <br>
   <div class="div-container">
-    <input type="text" name="gaz" id="e">
-    <input type="text" name="gaz" id="f">
+    <input type="number" name="gaz" id="e">
+    <input type="number" name="gaz" id="f">
     <p id="gazp" class="all-p">Газ</p>
     <button id="gogaz" class="all-btn">Посчитать</button>
   </div>
@@ -60,7 +56,7 @@
          <div class="water">
         <h2>вода</h2>
         <br>
-        <input id="waterRate">
+        <input id="waterRate" type="number">
       </div>
       <br>
       <br>
@@ -69,12 +65,12 @@
           <br>
           <div>
             <p>до 100 клВт</p>
-            <input id="beforeLight">
+            <input id="beforeLight" type="number">
           </div>
           <br>
           <div>
             <p>после 100 клВТ</p>
-            <input id="afterLight">
+            <input id="afterLight" type="number">
           </div>
         </div>
         <br>
@@ -83,11 +79,11 @@
         <h2>Газ</h2>
         <div>
             <p>по счетчику</p>
-            <input type="" name="" id="counterImput">
+            <input type="number" name="gaz" id="counterImput">
         </div>
           <div>
             <p>без счетчика</p>
-            <input type="" name="" id="peopleInput">
+            <input type="number" name="gaz" id="peopleInput">
           </div>
         </div>
       </div>
