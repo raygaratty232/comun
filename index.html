@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="modal-butt">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Выбрать тариф</button>
+  </div>
+  <div class="div-container">
+    <input type="text" name="water" id="a">
+    <input type="text" name="water" id="b">
+    <p id="waterp" class="all-p"></p>
+    <button id="goWater" class="all-btn">Посчитать</button>
+  </div>
+  <br>
+  <br>
+  <div class="div-container">
+    <input type="text" name="light" id="c">
+    <input type="text" name="light" id="d">
+    <p id="lightp" class="all-p"></p>
+    <button id="golight" class="all-btn">Посчитать</button>
+  </div>
+  <br>
+  <br>
+  <div class="div-container">
+    <input type="text" name="gaz" id="e">
+    <input type="text" name="gaz" id="f">
+    <p id="gazp" class="all-p"></p>
+    <button id="gogaz" class="all-btn">Посчитать</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--modal-->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <h2 class="modal-title" id="exampleModalLabel">ТАРИФЫ</h2>
+      </div>
+      <div class="modal-body modal-rate">
+      <div class="modal-wrapper">
+         <div class="water">
+        <h2>вода</h2>
+        <br>
+        <input id="waterRate">
+      </div>
+      <br>
+      <br>
+        <div class="light">
+          <h2>свет</h2>
+          <br>
+          <div>
+            <p>до 100 клВт</p>
+            <input id="beforeLight">
+          </div>
+          <br>
+          <div>
+            <p>после 100 клВТ</p>
+            <input id="afterLight">
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="gaz">
+        <h2>Газ</h2>
+        <div>
+            <p>по счетчику</p>
+            <input type="" name="" id="counterImput">
+        </div>
+          <div>
+            <p>без счетчика</p>
+            <input type="" name="" id="peopleInput">
+          </div>
+        </div>
+      </div>
+      </div>
+     
+      <div class="modal-footer mod-foot">
+        <button type="button" class="btn btn-secondary exit" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary save" id="save" data-dismiss="modal">Сохранить</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js.js"></script> 
+</body>
+</html>
