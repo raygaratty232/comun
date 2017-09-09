@@ -6,6 +6,7 @@ background: -o-linear-gradient(102deg, #6614C4 0, #F6D347 100%);/* Opera 11.10+ 
 background: -ms-linear-gradient(102deg, #6614C4 0, #F6D347 100%);/* IE10+ */
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
 background: linear-gradient(102deg, #6614C4 0, #F6D347 100%);/* W3C */
+	height: 660px;
 }
 .wrapper{
 	max-width: 330px;
@@ -25,7 +26,7 @@ input{
 	width: 49%;
 }
 .all-p{
-	width: 23%;
+	text-align: center;
 	height: 30px;
 	margin: auto;
 	padding: 5% 0;
