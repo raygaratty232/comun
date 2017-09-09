@@ -29,8 +29,18 @@ input{
 	height: 30px;
 	width: 49%;
 }
-input[type='number'] {
-    -moz-appearance: textfield;
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input[type="number"] {
+-moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
 }
 .all-p{
 	text-align: center;
@@ -55,5 +65,13 @@ input[type='number'] {
 	width: 49%;
 }
 @media only screen and (max-width: 530px){
-	
+		.exit{
+			width: 43%;
+    		float: left;
+	}
+		.save{
+			width: 43%;
+    		float: left;
+	}
+
 }
