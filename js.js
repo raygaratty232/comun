@@ -85,4 +85,4 @@ gogaz.onclick = function(){
 	console.log(gazRes)
 }
 
-$('#myModal').modal("hide")
+$('#myModal').modal("hide");
