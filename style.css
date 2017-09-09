@@ -12,10 +12,14 @@ background: linear-gradient(102deg, #6614C4 0, #F6D347 100%);/* W3C */
 	max-width: 330px;
 	margin: auto;	
 }
+.div-container{
+	margin-top: 10%;
+}
 .modal-butt{
-	width: 50%;
-	margin: auto;
-	padding: 4% 0;
+	width: 46%;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 4px;
 }
 input{
 	border-radius: 10px;
@@ -25,12 +29,14 @@ input{
 	height: 30px;
 	width: 49%;
 }
+input[type='number'] {
+    -moz-appearance: textfield;
+}
 .all-p{
 	text-align: center;
-	height: 30px;
-	margin: auto;
-	padding: 5% 0;
-	font-size: 18px;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 4%;
 }
 .all-btn{
 	width: 35%;
